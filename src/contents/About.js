@@ -19,7 +19,7 @@ class About extends Component {
             but I am well-versed in back-end as well.
             </p>
             <div className="Edu">
-                <div class="back1 back2"><i class="fa fa-book i1 i3"></i></div>
+                {/* <div class="back1 back2"><i class="fa fa-book i1 i3"></i></div> */}
             </div>
             <h3>Education</h3>
             <div className="vr_line glass">

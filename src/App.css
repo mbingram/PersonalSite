@@ -15,21 +15,19 @@ body{
   font-family: 'Raleway';
   background: linear-gradient(to right,#FFB1AF, #D6D4FF, #B3EEFF);
 }
-.App
-{
+.App {
   display: flex;
   width: 100vw;
   min-height: 100vh;
 }
-.glass{
+.glass {
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0px 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
-nav
-{
+nav {
   width: 20%;
 	height: 90%;
 	position: absolute;
@@ -39,8 +37,7 @@ nav
   line-height: 1;
   text-align: center;
 }
-.condiv
-{
+.condiv {
   width: 60%;
 	height: 90%;
 	position: absolute;
@@ -61,31 +58,30 @@ nav
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
+  background: rgba(179, 238, 255,.75);
+  padding: 5px;
 }
 
-.home
-{
+.home {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   
 }
-.profilepic
-{
+.profilepic {
   border-radius: 50%;
   width: 160px;
   margin: 30px;
   opacity: 90%;
 }
-.typingeffect
-{
+.typingeffect {
   font-size: var(--typing-font);
   margin-bottom: 30px;
   color: rgb(43, 43, 43);
 }
 
-nav ul{
+nav ul {
   position: absolute;
   bottom: 2%;
   left: 5%;
@@ -95,61 +91,59 @@ nav ul{
   list-style-type: none;
   text-decoration: none;
 }
-nav ul li
-{
+nav ul li {
   margin:15px;
   padding: 11px;
   border-radius: 10px;
   color: rgb(43, 43, 43);
 }
-nav ul li:hover{
+nav ul li:hover {
   background-color: #ffffff80;
 }
 
-a
-{
+a {
   text-decoration: none;
 }
 
-.subtopic
-{
+.subtopic {
   margin:10px 10px 10px 15px;
   font-size: 1.6rem;
 }
-p{
+
+p {
   font-size: var(--fontsize-p);
   color: rgb(43, 43, 43);
   margin: 10px;
 }
-h1{
+h1 {
   margin: 10px;
   font-size: 3.3rem;
 }
-h2{
+h2 {
   font-size: 2rem;
 }
-.abouthead{
+.abouthead {
   margin: 15px 10px;
   font-size: 2.3rem;
 }
-h3{
+h3 {
   font-size: 1.4rem;
   margin: 37px 0 0 90px;
 }
-h4{
+h4 {
   font-size: 1.2rem;
   margin: 24px 0 0 90px;
 }
-.p1{
+.p1 {
   margin-left: 90px;
   font-size: 1rem;
 }
-.sk_head{
+.sk_head {
   position: absolute;
   top: 50%;
   left: 45%;
 }
-.sk{
+.sk {
   position: absolute;
   top: 65%;
   left: 58%;
@@ -157,7 +151,8 @@ h4{
   width: 90px;
   height: 15px;
   font-weight: bolder;
-  color: #FFB1AF;
+  color: #fd837f;
+  -webkit-text-stroke: .25px black;
   text-align: center;
   padding: 10px;
 }
@@ -385,8 +380,10 @@ mark{
 	position: absolute;
 	top: 54%;
   left: 22%;
-  color: black;
+  color: white;
+  -webkit-text-stroke: .25px black;
   font-size: 22px;
+  font-weight: bold;
   text-align: center;
   cursor: pointer;
 }

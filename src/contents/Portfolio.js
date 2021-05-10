@@ -17,12 +17,12 @@ class Portfolio extends Component {
             </div>
 
             <div class="port_out port2 glass"><a href="https://github.com/mbingram/HeartBeet_frontend">
-                <div class="project-title">HeartBeet (front-end)</div>
+                <div class="project-title">HeartBeet <br></br> (front-end)</div>
                 <img src={project2} className="po1" alt="heartbeet_front"></img></a>
             </div>
 
             <div class="port_out port3 glass"><a href="https://github.com/mbingram/HeartBeet_backend">
-                <div class="project-title">HeartBeet (back-end)</div>
+                <div class="project-title">HeartBeet <br></br> (back-end)</div>
                 <img src={project3} className="po1" alt="heartbeet_back"></img></a>
             </div>
             
