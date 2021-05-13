@@ -380,14 +380,15 @@ mark{
 .back3{
   width: 210px;
 	height: 25px;
+  margin-top: 30px;
   padding: 12px 0;
 	position: absolute;
 	top: 54%;
   left: 22%;
-  color: white;
-  -webkit-text-stroke: .25px black;
+  color: black;
+  /* -webkit-text-stroke: .25px black; */
   font-size: 22px;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-align: center;
   cursor: pointer;
 }

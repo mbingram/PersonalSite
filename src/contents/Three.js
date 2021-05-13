@@ -20,7 +20,7 @@ return (
     <mesh
     {...props}
     ref={mesh}
-    scale={active ? [5, 5, 5] : [1, 1, 1]}
+    scale={active ? [2, 2, 2] : [1.5, 1.5, 1.5]}
     onClick={(e) => setActive(!active)}
     >
         <boxBufferGeometry args={[1, 1, 1]} />
@@ -37,8 +37,8 @@ const Three = () => {
             <ambientLight intensity={0.5} />
             <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
             <pointLight position={[-10, -10, -10]} />
-            <Box position={[-1.2, 0, 0]} />
-            <Box position={[2.5, 0, 0]} />
+            <Box position={[-2.2, 0, 0]} />
+            <Box position={[3.5, 0, 0]} />
         </Canvas>
     );
 }

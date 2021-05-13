@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import project1 from '../img/project1.png';
 import project2 from '../img/project2.png';
 import project3 from '../img/project3.png';
-// import project4 from '../img/project4.png';
+import project4 from '../img/project4.png';
 
 class Portfolio extends Component {
     render() {
@@ -24,6 +24,11 @@ class Portfolio extends Component {
             <div class="port_out port3 glass"><a href="https://github.com/mbingram/HeartBeet_backend">
                 <div class="project-title">HeartBeet <br></br> (back-end)</div>
                 <img src={project3} className="po1" alt="heartbeet_back"></img></a>
+            </div>
+
+            <div class="port_out port4 glass"><a href="https://github.com/mbingram/PersonalSite">
+                <div class="project-title">Portfolio Website</div>
+                <img src={project4} className="po1" alt="portfolio"></img></a>
             </div>
             
             </div>
