@@ -19,13 +19,8 @@ class About extends Component {
             but I am well-versed in back-end as well.
             </p>
             <div className="Edu">
-                {/* <div class="back1 back2"><i class="fa fa-book i1 i3"></i></div> */}
             </div>
             <h3>Education</h3>
-            <div className="vr_line glass">
-                <div className="vr_inner inn1"></div>
-                <div className="vr_inner inn2"></div>
-            </div>
             <h4>Graphic Design Production</h4>
             <p className="p1">Tallahassee Community College</p>
             <p className="p1"><i class="fa fa-calendar i2"></i>2012-2014</p>

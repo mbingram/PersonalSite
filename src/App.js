@@ -10,6 +10,7 @@ import Home from './contents/Home';
 import About from './contents/About';
 import Portfolio from './contents/Portfolio';
 import Contact from './contents/Contact';
+import Three from './contents/Three';
 
 const GlobalStyle = createGlobalStyle`
   body{
@@ -38,6 +39,9 @@ function App() {
     </Route>
     <Route path="/contact">
     <Contact />
+    </Route>
+    <Route path="/three">
+    <Three />
     </Route>
     <div class="back1 glass" onClick={e => setTheme(
       theme.mode === 'dark' ? {mode: 'light'} : {mode: 'dark'}

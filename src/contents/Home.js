@@ -3,8 +3,6 @@ import ReactTypingEffect from 'react-typing-effect';
 import profilepic from '../img/profile_photo.jpg';
 import Social from '../components/Social'
 
-
-
 class Home extends Component {
     render() {
         return (
