@@ -24,17 +24,17 @@ class About extends Component {
             <h4>Graphic Design Production</h4>
             <p className="p1">Tallahassee Community College</p>
             <p className="p1"><i class="fa fa-calendar i2"></i>2012-2014</p>
-            <h4>High School</h4>
-            <p className="p1">Lawton Chiles High School, Tallahassee, FL</p>
-            <p className="p1"><i class="fa fa-calendar i2"></i>May 2010</p>
+            <h4>Software Engineering</h4>
+            <p className="p1">Flatiron School of Software Engineering</p>
+            <p className="p1"><i class="fa fa-calendar i2"></i>2020-2021</p>
 
             <h3 class="sk_head">Skills</h3>
             <div class="sk glass">React</div>
             <div class="sk s2 glass">JavaScript</div>
-            <div class="sk s3 glass">HTML</div>
-            <div class="sk s4 glass">CSS</div>
-            <div class="sk s5 glass">Ruby</div>
-            <div class="sk s6 glass">Rails</div>
+            <div class="sk s3 glass">Three.js</div>
+            <div class="sk s4 glass">Ruby/Rails</div>
+            <div class="sk s5 glass">HTML</div>
+            <div class="sk s6 glass">CSS</div>
             </div>
             )
         }
