@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navitem from './Navitem';
-import profilepic from '../img/profile_photo.jpg';
+
+const profilepic = "https://firebasestorage.googleapis.com/v0/b/marybethdev-a6a64.appspot.com/o/IMG_20210202_173427_568.jpg?alt=media&token=6ac378d2-9e41-4934-8018-42e393de6770"
 
 class Navbar extends Component {
     constructor(props)

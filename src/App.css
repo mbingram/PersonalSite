@@ -4,7 +4,7 @@
   --condiv-flex:6;
   --fontsize-p:2.5vh;
   --fontsize-nav:2.5vh;
-  --typing-font:1.8rem;
+  --typing-font:5vh;
 }
 *
 {
@@ -82,8 +82,8 @@ nav {
 .codeypic {
   border-radius: 50%;
   border: 2px solid white;
-  width: 360px;
-  margin: 30px;
+  width: 45%;
+  margin: -8vh 8vh 6vh 8vh;
   opacity: 90%;
 }
 .typingeffect {
