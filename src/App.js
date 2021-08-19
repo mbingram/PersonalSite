@@ -18,20 +18,21 @@ const GlobalStyle = createGlobalStyle`
   }
   h1{
     color: ${props => props.theme.mode === 'dark' ? 'white' : 'black' };
+    font-size: 8vh;
   }
   h2{
     color: ${props => props.theme.mode === 'dark' ? 'white' : 'black' };
+    font-size: 3.5vh;
   }
   h3{
     color: ${props => props.theme.mode === 'dark' ? '#FFB1AF' : 'black' };
+    font-size: 3vh;
   }
   h4{
     color: ${props => props.theme.mode === 'dark' ? '#FFB1AF' : 'black' };
+    font-size: 2.8vh;
   }
   p{
-    color: ${props => props.theme.mode === 'dark' ? 'white' : 'black' };
-  }
-  li{
     color: ${props => props.theme.mode === 'dark' ? 'white' : 'black' };
   }
   mark{

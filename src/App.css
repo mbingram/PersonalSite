@@ -2,8 +2,8 @@
 :root{
   --sidebar-flex:1.5;
   --condiv-flex:6;
-  --fontsize-p:1.2rem;
-  --fontsize-nav:1.2rem;
+  --fontsize-p:2.5vh;
+  --fontsize-nav:2.5vh;
   --typing-font:1.8rem;
 }
 *
@@ -76,7 +76,7 @@ nav {
 .profilepic {
   border-radius: 50%;
   width: 160px;
-  margin: 90px 30px 30px 30px;
+  margin: 60px 30px 30px 30px;
   opacity: 90%;
 }
 .codeypic {
@@ -407,7 +407,7 @@ mark{
 }
 
 .about-paragraph {
-  width: 70%;
+  width: 80%;
   margin-left: 7%;
 }
 
@@ -416,8 +416,9 @@ mark{
   margin-left: 7%;
 }
 
-.prof-exp{
-  margin-top: 7%;
+.prof-exp-title{
+  margin-left: -2%;
+  margin-bottom: 3%;
 }
 
 .Edu {
@@ -528,7 +529,7 @@ mark{
   }
   .back3{
     top: 44%;
-    left: 19%;
+    left: 15%;
   }
   .back4{
     top: 54%;

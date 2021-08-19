@@ -11,7 +11,7 @@ class Contact extends Component {
             <a href="https://www.mostlyambivalent.com"><div class="con_out glass"><div class="project-title">Other Designs</div><img src={ambivalent} class="co1" alt="mostly-ambivalent"></img></div></a>
             <a href="https://docs.google.com/document/d/1hpVL9v9xOcBYKipxvRUBS44ZuvStYNnugGP7n9650ZA/edit?usp=sharing"><div className="back3 glass">Resume</div></a>
             <a href="mailto:mbingramm@gmail.com"><div className="back3 back4 glass">Email Me</div></a>
-            <div className="hr_line line3 glass"><div className="inner3"></div></div>
+            {/* <div className="hr_line line3 glass"><div className="inner3"></div></div> */}
             <Social />
             </div>
             )

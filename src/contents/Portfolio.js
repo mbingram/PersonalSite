@@ -10,9 +10,10 @@ class Portfolio extends Component {
             <div className="condiv">
             <h1 className="subtopic">Previous Work</h1>
             <div className="hr_line line2 glass"><div className="inner2 inner3"></div></div>
-
-            <h3 className="prof-exp">Professional Experience</h3>
+            <div className="prof-exp-title">
+            <h3>Professional Experience</h3>
             <h4>Full Stack Software Engineer -- CLMBR</h4>
+            </div>
             <div className="experience-paragraph">
             <p className="p10">
             -Full Stack Engineer for a fast-paced startup environment. Independently pursued bug fixes and made pull requests prior to a major hardware/software launch.<br/>
