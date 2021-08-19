@@ -156,8 +156,8 @@ h4 {
   width: 90px;
   height: 15px;
   font-weight: bolder;
-  color: #fd837f;
-  -webkit-text-stroke: .25px black;
+  color: rgb(75, 25, 128);
+  -webkit-text-stroke: .15px #FFB1AF;
   text-align: center;
   padding: 10px;
 }
@@ -398,6 +398,16 @@ mark{
 }
 .back4{
   left: 56%;
+}
+
+.about-paragraph {
+  width: 70%;
+  margin-left: 7%;
+}
+
+.Edu {
+  position: absolute;
+  top: 50%;
 }
 
 @media all and (max-width: 450px) {

@@ -10,16 +10,18 @@ class About extends Component {
             <h2 className="abouthead">Mary Beth <mark className="mark2">Ingram</mark></h2>
             <p>Full Stack Developer</p>
             <br></br>
-            <p className="p10">My name is Mary Beth; you can call me MB if you'd like. <br/>
-            I have a background in art, and I attended Tallahassee Community College for Graphic Design Production.
-            The education I recieved allows me the opportuinity
-            to produce a lot of my own material for web apps that I am building and designing. With a long history of
-            athletic participation, I am a natural at working with a team. I'm a quick learner, and also not a bad coach!
-            My natural inclination towards visual creativity steers me in the direction of front-end development,
-            but I am well-versed in back-end as well.
+            <div className="about-paragraph">
+            <p className="p10">My name is <b>Mary Beth</b>; you can call me <b>MB</b> if you'd like. <br/>
+            I am a natural <b>designer</b>, a <b>team player</b>, and an <b>empathetic leader</b>. <br/>
+            <br/>
+            I am passionate about learning and exploring new technologies, and find that the best learning happens when
+            faced with real challenges.
+            Prior to starting a career in software engineering, I received an education in Graphic Design from Tallahassee Community College.
+            In 2020, I attended Flatiron School of Software Engineering in Denver, where I fell in love with coding and the creative
+            opportunities that come along with it.
             </p>
-            <div className="Edu">
             </div>
+            <div className="Edu">
             <h3>Education</h3>
             <h4>Graphic Design Production</h4>
             <p className="p1">Tallahassee Community College</p>
@@ -27,6 +29,7 @@ class About extends Component {
             <h4>Software Engineering</h4>
             <p className="p1">Flatiron School of Software Engineering</p>
             <p className="p1"><i class="fa fa-calendar i2"></i>2020-2021</p>
+            </div>
 
             <h3 class="sk_head">Skills</h3>
             <div class="sk glass">React</div>

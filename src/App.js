@@ -14,7 +14,28 @@ import Three from './contents/Three';
 
 const GlobalStyle = createGlobalStyle`
   body{
-  background: linear-gradient(${props => props.theme.mode === 'dark' ? '#868f96, #596164' : '(#ff758c,#764ba2'});
+    background: linear-gradient(${props => props.theme.mode === 'dark' ? '#868f96, #596164' : '#FFB1AF, #D6D4FF, #B3EEFF'});
+  }
+  h1{
+    color: ${props => props.theme.mode === 'dark' ? 'white' : 'black' };
+  }
+  h2{
+    color: ${props => props.theme.mode === 'dark' ? 'white' : 'black' };
+  }
+  h3{
+    color: ${props => props.theme.mode === 'dark' ? '#FFB1AF' : 'black' };
+  }
+  h4{
+    color: ${props => props.theme.mode === 'dark' ? '#FFB1AF' : 'black' };
+  }
+  p{
+    color: ${props => props.theme.mode === 'dark' ? 'white' : 'black' };
+  }
+  li{
+    color: ${props => props.theme.mode === 'dark' ? 'white' : 'black' };
+  }
+  mark{
+    background-image: linear-gradient(${props => props.theme.mode === 'dark' ? '#000000, #868f96' : '120deg,#B3EEFF 0,#D6D4FF 100%'});
   }
 
 `
