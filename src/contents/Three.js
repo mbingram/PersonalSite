@@ -1,7 +1,7 @@
 import React, { useRef, useState, useMemo } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import * as THREE from "three";
-import selfie from './selfie.png';
+import codeypic from '../img/codeypic.jpg';
 
 const Box = (props) => {
 
@@ -13,7 +13,7 @@ const Box = (props) => {
         mesh.current.rotation.x = mesh.current.rotation.y += 0.01;
     });
 
-    const texture = useMemo(() => new THREE.TextureLoader().load(selfie), []);
+    const texture = useMemo(() => new THREE.TextureLoader().load(codeypic), []);
 
 return (
     <mesh
