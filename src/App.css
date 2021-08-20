@@ -66,7 +66,6 @@ nav {
   background: rgba(179, 238, 255,.75);
   padding: 5px;
 }
-
 .home {
   display: flex;
   justify-content: center;
@@ -77,14 +76,12 @@ nav {
   border-radius: 50%;
   width: 160px;
   margin: 60px 30px 30px 30px;
-  opacity: 90%;
 }
 .codeypic {
   border-radius: 50%;
   border: 2px solid white;
   width: 45%;
   margin: -8vh 8vh 6vh 8vh;
-  opacity: 90%;
 }
 .typingeffect {
   font-size: var(--typing-font);
