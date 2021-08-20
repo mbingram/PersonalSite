@@ -74,7 +74,7 @@ nav {
 }
 .profilepic {
   border-radius: 50%;
-  width: 160px;
+  width: 55%;
   margin: 60px 30px 30px 30px;
 }
 .codeypic {
@@ -156,8 +156,8 @@ h4 {
   top: 65%;
   left: 58%;
   display: inline-block;
-  width: 90px;
-  height: 15px;
+  width: 7vw;
+  height: 2vh;
   font-weight: bolder;
   color: rgb(75, 25, 128);
   -webkit-text-stroke: .15px #FFB1AF;
