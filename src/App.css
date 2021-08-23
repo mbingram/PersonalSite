@@ -65,6 +65,7 @@ nav {
   color: black;
   background: rgba(179, 238, 255,.75);
   padding: 5px;
+  font-size: 2vh;
 }
 .home {
   display: flex;
@@ -382,17 +383,15 @@ mark{
   border-radius: 10px;
 }
 .back3{
-  width: 210px;
-	height: 25px;
+  width: 11vw;
+	height: 2.2vh;
   margin-top: 10%;
   padding: 12px 0;
 	position: absolute;
 	top: 54%;
   left: 22%;
   color: black;
-  /* -webkit-text-stroke: .25px black; */
-  font-size: 22px;
-  /* font-weight: bold; */
+  font-size: 2.2vh;
   text-align: center;
   cursor: pointer;
 }
@@ -401,6 +400,22 @@ mark{
 }
 .back4{
   left: 56%;
+}
+
+.back5{
+  left: 40%;
+  width: 11vw;
+	height: 2.2vh;
+  padding: 12px 0;
+	position: absolute;
+	top: 90%;
+  color: black;
+  font-size: 2.2vh;
+  text-align: center;
+  cursor: pointer;
+}
+.back5:hover{
+  background-color: rgba(245, 108, 109,.5);
 }
 
 .about-paragraph {
